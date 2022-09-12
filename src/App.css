@@ -1,0 +1,44 @@
+.container{
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.head{
+  text-align: center;
+}
+form input {
+  padding: 8px;
+}
+form button{
+  padding: 8px;
+margin-left: 3px;
+background-color: blue;
+color: white;
+font-size: 12px;
+font-weight: bold;
+}
+.flexy{
+  margin-top: 12px;
+  display: flex;
+  border: 1px solid gray;
+  position: relative;
+  width: 30rem;
+  padding-left: 6rem;
+}
+.sm{
+  margin-top: 0px;
+  font-size: 12px;
+  text-align: left;
+}
+.trash{
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 25px;
+}
+.mr{
+  margin-right: 10px;
+}
+.icon:hover{
+  cursor: pointer;
+}
